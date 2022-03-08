@@ -13,6 +13,6 @@ puts "----------"
 puts "Enter a store name"
 @answer = gets.chomp
 
-Store.create(name: answer)
+Store.create(name: @answer)
 
 puts @answer.errors.full_message
